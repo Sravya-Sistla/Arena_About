@@ -28,10 +28,7 @@ Also, make sure to indicate the earliest version that has the issue being report
   ```
   copy .env.example .env
   ```
-- Open the newly created .env file and set the values of SASS_PATH and REACT_APP_SERVER_BASE_URL. 
-  
-  **Note:** There is no need to set the value of REACT_APP_SENTRY_DSN environment varaible.
-  ```
+
   
 - Run the development server to view the changes you are making by typing the following
   command:
