@@ -21,6 +21,6 @@ Github issues can be used for :
 3. Tracking ideas, enhancements
 4. Organize tasks
 
-#### License
+## License
 By contributing, you agree that your contributions will be licensed under its MIT License.
   
