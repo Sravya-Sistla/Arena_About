@@ -4,13 +4,13 @@ We welcome the contributors who wish to contribute in out project. We are very p
 Follow the following steps to contribute in this project.
 
 ## Getting started with the project
-1.Fork the project & clone locally.
-2.Create an upstream remote and sync your local copy before you branch.
-3.Branch for each section of work.
-4.Do the work, write good commit messages.
-5.Push to your origin repository.
-6.Create a new PR in GitHub. Describe the changes made to the code properly using our Pull Request Template.
-7.Wait for the code review feedback.
+1. Fork the project & clone locally.
+2. Create an upstream remote and sync your local copy before you branch.
+3. Branch for each separate piece of work.
+4. Do the work, write good commit messages
+5. Push to your origin repository.
+6. Create a new PR in GitHub. Describe the changes made to the code properly using our [Pull Request Template](pull_request_template.md).
+7. Wait for the code review feedback.
 
 ## Other methods
 
