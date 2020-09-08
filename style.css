@@ -31,7 +31,7 @@ body {
 
 .showcase:before {
   content: '';
-  background: url(Images/main_picture.png) no-repeat center center/cover;
+  background: url(../S_Sravya/Images/10783763.jpg) no-repeat center center/cover;
   background-attachment:fixed;
   position: absolute;
   top: 0;
@@ -52,14 +52,16 @@ body {
 
 .showcase h1 {
   font-family: "Courier New", Courier, monospace;
-  font-size: 60px;
-  margin-top: 250px;
+  color: black;
+  font-size: 80px;
+  margin-top: 300px;
   margin-right: 20px;
   font-weight: 500;
 }
 
 .showcase p {
-  font-size: 20px;
+  font-size: 30px;
+  color: black;
   margin-top: 230px;
 }
  
@@ -243,42 +245,55 @@ body {
 
   /*-----PAGE 5 OPEN SOURCE PROJECTS-----*/
 
-  .opensource{
-    margin: 20px;
-    margin-bottom: 250px;
-    background-color: #f1f1f1;
-   
+  .narrow {
+    width: 75%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6rem;
   }
-
-  .opensource .h1 h1{
+  
+  .heading{
     font-size: 60px;
-    margin-bottom: 30px;
-    text-align: center;
-    font-family: "Courier New", Courier, monospace;
     font-weight: 500;
+    font-family: "Courier New", Courier, monospace ;
+    margin-bottom: 80px;
   }
-
-  .opensource .p{
-    font-size: 25px;
-    margin-top: 5px;
-    margin-bottom: 40px;
+  
+  
+  
+    /* Anout us 2 */
+  .about-extra{
+    width: 100%;
+    height: auto;
+    margin: 50px 0;
     text-align: center;
   }
-
-  .opensource .h2{
+  
+  .extra-div{
+    background: white;
+    border: medium none;
+    padding: 45px!important;
+    border-radius: 3px;
+    transition: 0.2s;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+   .extra-div h2{
+    margin: 20px 0 15px 0;
     font-size: 30px;
-    margin-top: 15px;
-    margin-bottom: 30px;
-    text-align: center;
+    font-weight:600;
+    line-height: 1.1;
+    word-spacing: 4px;
   }
-
-  .opensource .list{
-
+  .extra-div p{
     font-size: 20px;
-    margin-top: 15px;
-    margin-bottom: 30px;
-    text-align: center;
   }
+  
+  .extra-div:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+  } 
 
   /*---------PAGE 6 FEED BACK---------*/
 
@@ -300,13 +315,17 @@ body {
 }
 
 
-.container .carousel-inner .item .carousel-caption P{
-  font-size: 20px;
+.container .carousel-inner .item .carousel-caption p{
+  font-size: 30px;
   text-align: center;
-  margin-top: -420px;
+  margin-top: -450px;
   margin-bottom: 30px;
 }
-
+.container .carousel-inner .item .carousel-caption h3{
+  margin-left: 150px;
+  font-size: 15px;
+  margin-top: 20px;
+}
 
 
 @media only screen and (max-width:800px) {
@@ -508,42 +527,55 @@ body {
   
     /*-----PAGE 5 OPEN SOURCE PROJECTS-----*/
   
-    .opensource{
-      margin: 20px;
-      margin-bottom: 100px;
-      background-color: #f1f1f1;
-     
+    .narrow {
+      width: 75%;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 6rem;
     }
-  
-    .opensource .h1 h1{
+    
+    .heading{
       font-size: 60px;
-      margin-bottom: 30px;
-      text-align: center;
-      font-family: "Courier New", Courier, monospace;
       font-weight: 500;
+      font-family: "Courier New", Courier, monospace ;
+      margin-bottom: 80px;
     }
-  
-    .opensource .p{
-      font-size: 25px;
-      margin-top: 5px;
-      margin-bottom: 40px;
+    
+    
+    
+      /* Anout us 2 */
+    .about-extra{
+      width: 100%;
+      height: auto;
+      margin: 50px 0;
       text-align: center;
     }
-  
-    .opensource .h2{
+    
+    .extra-div{
+      background: white;
+      border: medium none;
+      padding: 45px!important;
+      border-radius: 3px;
+      transition: 0.2s;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+     .extra-div h2{
+      margin: 20px 0 15px 0;
       font-size: 30px;
-      margin-top: 15px;
-      margin-bottom: 30px;
-      text-align: center;
+      font-weight:600;
+      line-height: 1.1;
+      word-spacing: 4px;
     }
-  
-    .opensource .list{
-  
+    .extra-div p{
       font-size: 20px;
-      margin-top: 15px;
-      margin-bottom: 30px;
-      text-align: center;
     }
+    
+    .extra-div:hover{
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+      transform: translateY(-5px);
+    } 
   
     /*---------PAGE 6 FEED BACK---------*/
   
@@ -564,14 +596,19 @@ body {
     margin-bottom: 100px;
   }
   
-  .container .carousel-inner .item .carousel-caption P{
+  
+  .container .carousel-inner .item .carousel-caption p{
     font-size: 20px;
     text-align: center;
-    margin-top: -300px;    
+    margin-top: -250px;
     margin-bottom: 30px;
   }
+  .container .carousel-inner .item .carousel-caption h3{
+    margin-left: 150px;
+    font-size: 15px;
+    margin-top: 20px;
+  }
   
-}
 
 
 @media only screen and (max-width:500px) {
@@ -834,54 +871,64 @@ body {
  
    /*-----PAGE 5 OPEN SOURCE PROJECTS-----*/
  
-   .opensource{
+   .narrow {
+    width: 75%;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding-top: 6rem;
+  }
   
-     margin-bottom: 100px;
-     background-color: #f1f1f1;
-     height: 600px;
-     width: 750px;
-     margin-left:-30px;
-    
-   }
- 
-   .opensource .h1 h1{
-     font-size: 55px;
-     margin-bottom: 30px;
-     text-align: center;
-     font-family: "Courier New", Courier, monospace;
-     font-weight: 500;
-     margin-top: 20px;
-   }
- 
-   .opensource .p{
-     font-size: 25px;
-     margin-top: 5px;
-     margin-bottom: 40px;
-     text-align: center;
-   }
- 
-   .opensource .h2{
-     font-size: 30px;
-     margin-top: 15px;
-     margin-bottom: 30px;
-     text-align: center;
-   }
- 
-   .opensource .list{
- 
-     font-size: 20px;
-     margin-bottom: 30px;
-     text-align: center;
-     margin-top: 15px
-   }
- 
+  .heading{
+    font-size: 60px;
+    font-weight: 500;
+    font-family: "Courier New", Courier, monospace ;
+    margin-bottom: 80px;
+  }
+  
+  
+  
+    /* Anout us 2 */
+  .about-extra{
+    width: 100%;
+    height: auto;
+    margin: 50px 0;
+    text-align: center;
+    margin-left: 90px;
+  }
+  
+  .extra-div{
+    background: white;
+    border: medium none;
+    padding: 45px!important;
+    border-radius: 3px;
+    transition: 0.2s;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+   .extra-div h2{
+    margin: 20px 0 15px 0;
+    font-size: 30px;
+    font-weight:600;
+    line-height: 1.1;
+    word-spacing: 4px;
+  }
+  .extra-div p{
+    font-size: 20px;
+  }
+  
+  .extra-div:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+  } 
  
  
    /*---------PAGE 6 FEED BACK---------*/
  
+  
    .feedback {
     margin-top: 0px !important;
     margin-bottom: 20px;
+
   }
 
 .feedback .h1 h1{
@@ -889,25 +936,27 @@ body {
   text-align: center;
   font-family: "Courier New", Courier, monospace;
   font-weight: 500;
-  margin-left: 140px;
+  margin-left: 150px;
 }
-
 
 .container{
   margin-bottom: 100px;
 }
 
-.please{
-  margin-left: 140px;
+
+.container .carousel-inner .item .carousel-caption p{
+  font-size: 20px;
+  text-align: center;
+  margin-top: -40px;
+  margin-bottom: 30px;
+}
+.container .carousel-inner .item .carousel-caption h3{
+  margin-left: 150px;
+  font-size: 10px;
+  margin-top: 20px;
 }
 
 
-.container .carousel-inner .item .carousel-caption P{
-  font-size: 13px;
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 5px;
- }
 
  @media only screen and (max-width:360px) {
   /* For mobile phones: */
@@ -1168,47 +1217,56 @@ body {
  
    /*-----PAGE 5 OPEN SOURCE PROJECTS-----*/
  
-   .opensource{
+   .narrow {
+    width: 75%;
+    margin-top: 20px;
+    margin-left: 170px;
+   
+    padding-top: 6rem;
+  }
   
-     margin-bottom: 100px;
-     background-color: #f1f1f1;
-     height: 600px;
-     width: 750px;
-     margin-left:-30px;
-    
-   }
- 
-   .opensource .h1 h1{
-     font-size: 55px;
-     margin-bottom: 30px;
-     text-align: center;
-     font-family: "Courier New", Courier, monospace;
-     font-weight: 500;
-     margin-top: 20px;
-   }
- 
-   .opensource .p{
-     font-size: 25px;
-     margin-top: 5px;
-     margin-bottom: 40px;
-     text-align: center;
-   }
- 
-   .opensource .h2{
-     font-size: 30px;
-     margin-top: 15px;
-     margin-bottom: 30px;
-     text-align: center;
-   }
- 
-   .opensource .list{
- 
-     font-size: 20px;
-     margin-bottom: 30px;
-     text-align: center;
-     margin-top: 15px
-   }
- 
+  .heading{
+    font-size: 60px;
+    font-weight: 500;
+    font-family: "Courier New", Courier, monospace ;
+    margin-bottom: 80px;
+  }
+  
+  
+  
+    /* Anout us 2 */
+  .about-extra{
+    width: 100%;
+    height: auto;
+    margin: 50px 0;
+    text-align: center;
+    margin-left: 150px;
+  }
+  
+  .extra-div{
+    background: white;
+    border: medium none;
+    padding: 45px!important;
+    border-radius: 3px;
+    transition: 0.2s;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+   .extra-div h2{
+    margin: 20px 0 15px 0;
+    font-size: 30px;
+    font-weight:600;
+    line-height: 1.1;
+    word-spacing: 4px;
+  }
+  .extra-div p{
+    font-size: 20px;
+  }
+  
+  .extra-div:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+  } 
  
  
    /*---------PAGE 6 FEED BACK---------*/
@@ -1216,6 +1274,7 @@ body {
    .feedback {
     margin-top: 0px !important;
     margin-bottom: 20px;
+
   }
 
 .feedback .h1 h1{
@@ -1223,26 +1282,24 @@ body {
   text-align: center;
   font-family: "Courier New", Courier, monospace;
   font-weight: 500;
-  margin-left: 140px;
+  margin-left: 120px;
 }
-
 
 .container{
   margin-bottom: 100px;
-  height: 100%;
-  width: auto;
-  margin-left: 20px;
-}
 
-.please{
-  margin-left: 140px;
 }
 
 
-.container .carousel-inner .item .carousel-caption P{
-  font-size: 13px;
+.container .carousel-inner .item .carousel-caption p{
+  font-size: 10px;
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 5px;
- }
+  margin-bottom: 30px;
 }
+.container .carousel-inner .item .carousel-caption h3{
+  margin-left: 150px;
+  font-size: 5px;
+  margin-top: 20px;
+}
+
